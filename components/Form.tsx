@@ -1,11 +1,10 @@
 'use client';
 import { RotateCwIcon } from 'lucide-react';
-import { useRouter } from 'next/navigation';
+import { signIn } from 'next-auth/react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
-import { signIn } from 'next-auth/react';
-import { error } from 'console';
 
 type Props = {
   type: 'register' | 'login';

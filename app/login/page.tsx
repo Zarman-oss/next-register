@@ -14,8 +14,8 @@ export default function page() {
           <p className="text-sm text-white">
             Use your email and password to login
           </p>
+          <Form type="login" />
         </div>
-        <Form type="login" />
       </div>
     </div>
   );

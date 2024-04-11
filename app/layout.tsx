@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-slate-900">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />{' '}
+        <link rel="icon" href="/icon.ico" />
       </head>
       <body className={inter.className}>
         <Toaster />

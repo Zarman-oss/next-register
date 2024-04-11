@@ -14,8 +14,8 @@ export default function page() {
           <p className="text-sm text-white">
             Create an account with your valid email and put a strong password in
           </p>
+          <Form type="register" />
         </div>
-        <Form type="register" />
       </div>
     </div>
   );
